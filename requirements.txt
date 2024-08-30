@@ -1,5 +1,4 @@
 Flask
-opencv-python-headless  # Important: use this instead of opencv-python
+opencv-python
 mediapipe
 pyautogui
-pyvirtualdisplay
