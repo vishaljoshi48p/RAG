@@ -3,6 +3,11 @@ import cv2
 import mediapipe as mp
 import pyautogui
 import time
+from pyvirtualdisplay import Display
+
+# Start a virtual display
+display = Display(visible=0, size=(1024, 768))
+display.start()
 
 app = Flask(__name__)
 
